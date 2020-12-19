@@ -1,0 +1,148 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'Helvetica';
+    src: url(/my-fonts/Helvetica.otf) format('opentype');
+}
+
+/*---Header---*/
+
+header {
+    background: url(../img/intro.jpg) no-repeat center center;
+    height: 550px;
+    background-size: cover;
+    padding-top: 55px;
+    text-align: left;
+}
+
+.container {
+    max-width: 940px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+
+header h1 {
+    font-family: 'Helvetica', sans-serif;
+    font-size: 64px;
+    color: #1c1c1c;
+    font-weight: 100;
+    margin-bottom: 20px;
+}
+
+header p {
+    font-family: 'Helvetica', sans-serif;
+    font-size: 26px;
+    font-weight: 200;
+    color: #1c1c1c;
+}
+
+.btn {
+    background-color: rgba(238,68,95,0.9);
+    border-radius: 4px;
+    color: #fff;
+    padding: 8px 30px;
+    font-weight: 200;
+    font-size: 18px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.btn:hover {
+    -webkit-transition-property: box-shadow;
+    -webkit-transition-duration: 0.5s;
+    -webkit-transition-timing-function: initial;
+    -webkit-transition-delay: initial;
+    -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.6);
+    background-color: rgba(238, 68, 95, 1);
+}
+    /*--- Section1 ---*/
+.clearfix {
+    clear: both;
+}
+
+section {
+    padding-top: 50px;
+}
+
+.section1 {
+    border-bottom: 1px solid #dbdbdb;
+}
+
+.section2 .container, .section3 .container {
+    border-bottom: 1px solid #dbdbdb;
+
+}
+.col {
+    float: left;
+    width: 50%;
+    font-family: 'Helvetica', sans-serif;
+}
+
+.col h1{
+    font-size: 64px;
+    font-weight: 100;
+    margin-bottom: 20px;
+
+}
+.col p {
+    font-size: 26px;
+    font-weight: 200;
+    margin-bottom: 10px;
+    text-align: justify;
+}
+
+.image1{
+    text-align: left;
+}
+
+.image2 {
+    text-align: right;
+}
+
+/* --- Store Section ---*/
+
+.section4 {
+    text-align: center;
+    padding-bottom: 100px;
+    padding-top: 50px;
+}
+
+.section4 h2 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-family: 'Helvetica', sans-serif;
+    font-weight: 300;
+    font-size: 36px;
+}
+
+.section4 img {
+    padding: 5px;
+}
+
+/* --- Footer --- */
+
+footer {
+    border-top: 1px solid #dbdbdb;
+    background-color: #f3f3f3;
+    padding: 20px 0px;
+}
+
+.coll {
+    float: left;
+    width: 30%;
+    text-align: left;
+}
+
+.coll ul {
+    list-style-type: none;
+    padding: 0;
+    color: #999;
+}
+
+.coll h3{
+    color: #555;
+}
+

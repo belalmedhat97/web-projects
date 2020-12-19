@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/formStyle.css">
+    <script src="../js/vendor/modernizr-2.6.2.min.js"></script>
+</head>
+<body>
+    <header id="formHeader">
+        <h1>Please enter your details for Sign Up</h1>
+    </header>
+
+    <section id="formSection">
+        <form id="formExample">
+            <fieldset id="profile">
+                <legend>Profile Picture:</legend>
+                <label class="main-label" for="avatar">Upload your image:</label>
+                    <input type="file" id="avatar" name="avatar" required><br>
+                <label class="main-label" for="preview">Image preview:</label>
+                    <img id="preview" alt="Your image"><br>
+                <label class="main-label" for="userName">User Name:</label>
+                    <input type="text" id="userName" name="userName" required><br>
+                <label class="main-label" for="password">Password:</label>
+                    <input type="password" id="password" name="password">
+            </fieldset>
+
+            <fieldset id="personal">
+                <legend>Personal informations</legend>
+                    <label class="main-label" for="firstName">First Name:</label>
+                        <input type="text" id="firstName" name="firstName" placeholder="John" required><br>
+                    <label class="main-label" for="lastName">Last Name:</label>
+                        <input type="text" id="lastName" name="lastName" placeholder="Cena" required><br>
+                    <label class="main-label">Your gender:</label>
+                        <label for="maleGender">Male</label>
+                        <input type="radio" id="maleGender" name="gender" value="male" checked>
+                        <label for="femaleGender">Female</label>
+                        <input type="radio" id="femaleGender" name="gender" value="female"><br>
+                    <label class="main-label" for="birthday">Date of birth:</label>
+                        <input type="date" id="birthday" name="birthday" required><br>
+                    <label class="main-label" for="country">Country:</label>
+                        <select id="country" name="country" required>
+                            <option value>No selection</option>
+                            <option value="Ro">Romania</option>
+                            <option value="MD">Moldova</option>
+                            <option value="NO">Norway</option>
+                            <option value="ES">Spain</option>
+                        </select>
+            </fieldset>
+
+            <fieldset id="indicators">
+                <legend>Your indicators</legend>
+                    <label class="main-label" for="height">Height:</label>
+                        <span class="leftSpan">Short</span><input type="range" id="height" name="height" min="0" max="100"><span class="rightSpan">Tall</span><br>
+                    <label class="main-label" for="salary">Salary:</label>
+                        <span class="leftSpan">Poor</span><input type="range" id="salary" name="salary" min="0" max="100"><span class="rightSpan">Rich</span>
+            </fieldset>
+
+            <fieldset id="preferences">
+                <legend>Your preferences</legend>
+                    <label class="main-label" for="color">Favourite Color:</label>
+                        <input type="color" id="color" name="favColor" required><br>
+                    <label class="main-label" for="hobbies">Your hobbies:</label>
+                        <div id="hobby">
+                            <input type="checkbox" id="sports" name="hobby" value="sports">
+                            <label for="sports">Sports</label><br>
+                            <input type="checkbox" id="cooking" name="hobby" value="cooking">
+                            <label for="cooking">Cooking</label><br>
+                            <input type="checkbox" id="listening" name="hobby" value="music">
+                            <label for="listening">Listening to music</label><br>
+                            <input type="checkbox" id="reading" name="hobby" value="reading">
+                            <label for="reading">Reading</label><br>
+                            <input type="text" id="hobbies" name="hobby" placeholder="Ex: running, dancing">
+                        </div>
+
+            </fieldset>
+
+            <fieldset id="contact">
+                <legend>Contact details</legend>
+                    <label class="main-label" for="email">E-mail</label>
+                        <input type="email" id="email" name="email" placeholder="Ex: john.cena@gmail.com" required><br>
+                    <label class="main-label" for="phoneNumber">Mobile:</label>
+                        <input type="number" id="phoneNumber" name="phoneNumber"><br>
+                    <label class="main-label" for="address">Address:</label>
+                        <textarea id="address" name="address"></textarea><br>
+                    <label class="main-label">Method to cantact you:</label>
+                        <input type="checkbox" id="e-mail" name="email">
+                        <label for="e-mail">E-mail</label>
+                        <input type="checkbox" id="mobile" name="mobile">
+                        <label for="mobile">Mobile</label>
+                        <input type="checkbox" id="post" name="post">
+                        <label for="post">Post</label>
+            </fieldset>
+            <div class="buttons">
+                <button class="validate" type="submit">Sign Up</button>
+                <button class="validate" type="reset">Reset</button>
+            </div>
+
+        </form>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="../js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+<script src="../js/plugins.js"></script>
+<script src="../js/main.js"></script>
+
+<!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+<script>
+    (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+        e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+        e.src='//www.google-analytics.com/analytics.js';
+        r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+    ga('create','UA-XXXXX-X');ga('send','pageview');
+</script>
+</body>
+</html>

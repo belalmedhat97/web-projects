@@ -1,0 +1,95 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+header {
+    background-color: #30627E;
+}
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+header ul {
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+header li {
+    color: #fff;
+    display: inline-block;
+    font-size: 20px;
+    text-align: center;
+    padding: 20px 30px;
+    margin: 0;
+}
+header .main {
+    background-color: orange;
+    font-size: 28px;
+}
+/* --- Section1 --- */
+.jumbotron {
+    background: url(../img/bg.jpg) no-repeat center center;
+    background-size: cover;
+    height: 500px;
+    text-align: center;
+    margin-bottom: 0;
+    padding: 30px;
+}
+.jumbotron h1 {
+    color: orange;
+    font-weight: 700;
+}
+/*--- Section2 --- */
+#section2 {
+    text-align: center;
+    padding: 60px 30px 80px;
+}
+
+#section2 h2 {
+    color: #333;
+    font-size: 30px;
+    margin-top: 0;
+}
+
+#section2 p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    min-height: 80px;
+    margin: 0 0 10px;
+}
+
+.col-md-4 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.btn {
+    font-size: 16px;
+    border-radius: 0px;
+    margin: 20px auto 60px;
+    padding: 10px 20px;
+    color: #30627E;
+    width: 200px;
+    border: 1px solid #30627E;
+    text-transform: uppercase;
+}
+
+    /* --- Footer --- */
+
+footer {
+    color: #fff;
+    background-color: orangered;
+    padding: 20px;
+
+}
+
+.nav li a {
+    color: #fff;
+}
+
+
+

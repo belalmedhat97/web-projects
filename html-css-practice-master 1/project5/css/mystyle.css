@@ -1,0 +1,95 @@
+body, html {
+    margin: 0;
+    padding:0;
+    background-color: #cccdce;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* ---Header---*/
+
+header {
+    height: 140px;
+    background-color: #fff;
+    text-align: center;
+}
+
+header h1 {
+    text-transform: uppercase;
+    color: #31363d;
+    margin: 0 auto;
+    position: relative;
+    padding-bottom: 10px;
+    top: 44px;
+    font-size: 32px;
+    font-weight: 100;
+
+}
+
+ /* --- Section --- */
+.menu {
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+}
+
+.container {
+    margin: 0 auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    text-align: center;
+}
+
+.menu ul {
+    height: 50px;
+    margin: 0 0 30px;
+    padding: 20px 0;
+    text-align: center;
+    list-style-type: none;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.menu li {
+    display: inline;
+    padding: 0 10px;
+    -webkit-transition: color 0.25s;
+    transition: color 0.25s;
+}
+
+.menu li:hover {
+    color: #31363d;
+    cursor: pointer;
+    -webkit-transition: color 1s;
+    transition: color 1s;
+}
+
+    /* --- Section2 --- */
+
+
+.row {
+    margin-top: 30px;
+}
+
+    /* --- Footer --- */
+
+footer {
+    color: #31363d;
+    font-size: 10px;
+    height: 70px;
+    line-height: 70px;
+    padding-right: 40px;
+    text-align: right;
+    text-transform: uppercase;
+    margin-bottom: 100px;
+}
+
+/* --- Bootrastraping --- */
+
+@media (max-width: 500px) {
+    .row {
+        margin-top: 0;
+    }
+    .img-responsive {
+        margin-bottom: 20px;
+    }
+}

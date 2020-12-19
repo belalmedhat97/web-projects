@@ -1,0 +1,146 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+/*---Header---*/
+header {
+    background-color: #333333
+}
+.container {
+    max-width: 940px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+.nav{
+    list-style-type: none;
+    margin: 0;
+    padding: 20px 0;
+}
+.nav li {
+    list-style-type: none;
+    text-transform: uppercase;
+    display: inline-block;
+    margin-right: 25px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+}
+.nav a{
+    text-decoration: none;
+    color: #fff;
+}
+
+/*---Content---*/
+
+.jumbotron {
+    background: url(../images/bg.jpg) no-repeat center center;
+    height: 800px;
+    background-size: cover;
+}
+.container {
+    max-width: 940px;
+    margin: 0 auto;
+    padding: 0 10px
+}
+.main {
+    top: 180px;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 180px;
+}
+.main h1 {
+    font-size: 70px;
+    font-family: sans-serif;
+    color: #333;
+    font-weight: 400;
+    margin: 0 auto;
+    padding-bottom: 70px;
+}
+.main .btn-primary{
+    color: #fff;
+    font-size: 18px;
+    letter-spacing: 1px;
+    padding: 16px 40px;
+    text-decoration: none;
+}
+
+/*---UnderCover---*/
+section {
+    padding-top: 80px;
+}
+section .col {
+    float: left;
+    width: 33.333%;
+    font-family: sans-serif;
+    text-align: center;
+    padding-bottom: 100px;
+}
+section img {
+    height: 32px;
+}
+section h2{
+    text-transform: uppercase;
+    font-size: 23px;
+    font-weight: 600;
+}
+section p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 0 50px;
+    margin-bottom: 40px;
+}
+section .button{
+    text-decoration: none;
+    border: 1px solid #333;
+    padding: 10px 40px;
+    color: #333;
+    text-transform: uppercase;
+    font-size: 10px;
+    letter-spacing: 1.3px;
+}
+.clearfix {
+    clear: both;
+}
+
+/*---Footer---*/
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 30px 0;
+}
+footer p{
+    text-transform: uppercase;
+    font-size: 11px;
+}
+
+/* Media Queries */
+
+@media (max-width: 525px) {
+    section {
+        padding: 0;
+    }
+    section .col {
+        float: none;
+        margin: 0 auto;
+        padding:10px 0;
+        width: 100%;
+    }
+    section p {
+        margin: 0 auto;
+        padding: 10px 0;
+    }
+    section h2 {
+        font-size: 12px;
+    }
+    section .button {
+        padding: 0;
+        letter-spacing: 0;
+        font-size: 8px;
+    }
+    section img{
+        height: 15px;
+    }
+}

@@ -1,0 +1,92 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Libre Baskerville', sans-serif;
+}
+header {
+    text-align: center;
+    padding: 30px 0 80px;
+}
+header h1 {
+    font-size: 20px;
+}
+.nav li {
+    display: inline-block;
+}
+.nav li a {
+    color: #333;
+    margin: 0;
+}
+
+/* --- Jumbotron --- */
+.jumbotron {
+    background-color: white;
+}
+.jumbotron h2{
+    font-size: 50px;
+    margin: 0;
+}
+    /* --- Banner --- */
+.banner {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+.banner h1 {
+    font-size: 36px;
+    margin: 20px 0 10px 0;
+}
+    /* --- Gallery --- */
+.gallery {
+    background: #ffc200;
+    padding: 80px 0;
+    text-align: center;
+}
+.gallery h2 {
+    margin: 20px 0 60px 0;
+    font-size: 30px;
+}
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+footer {
+    padding: 60px 0;
+    background-color: #000;
+    color: #fff;
+}
+footer img {
+    width: 24px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+@media (max-width: 992px) {
+    .col-md-4 {
+        margin: 0 auto 0;
+        text-align: center;
+        width: 100%;
+        position: relative;
+        min-height: 1px;
+        padding-right: 15px;
+    }
+    .gallery img {
+        width: 60%;
+    }
+}
+@media (max-width: 500px) {
+    header h1 {
+        text-align: center;
+    }
+    .nav li {
+        text-align: center;
+        width: 100%;
+    }
+    .gallery img {
+        width: 100%;
+    }
+}
+
+
+

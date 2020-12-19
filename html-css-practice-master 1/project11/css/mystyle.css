@@ -1,0 +1,100 @@
+html, body {
+    height: 100%;
+}
+header#mainHeader {
+    height: 10%;
+    width: 100%;
+    background: rgba(153, 187, 255, 0.3);
+}
+nav.navbar.navbar-default {
+    height: 100%;
+}
+/*
+.row {
+    height: 100%;
+}*/
+div .col-md-4 {
+    text-align: center;
+    height: 100%;
+    font-size: 28px;
+}
+div .col-md-8 {
+    height: 100%;
+    text-align: right;
+}
+
+div .col-md-4 h1{
+    margin: 0;
+    height: 100%;
+}
+/*nav#menu{
+    font-size: 20px;
+    font-family: inherit;
+}
+
+nav#menu . menuButton {
+    border-radius: 15px 15px 0 0;
+    margin: 5px;
+    background: seashell;
+    width: 120px;
+    height: 50px;
+}
+nav#menu .menuButton:hover {
+    background-color: lightgreen;
+}
+nav#menu .menuButton.active {
+    background-color: #b3d4fc;
+}
+nav#menu a{
+    text-decoration: none;
+    padding: 15px;
+}
+nav#menu a:hover {
+    text-decoration: none;
+}
+*/
+.menuButton {
+    border-radius: 15px 15px 0 0;
+    margin: 5px;
+    background-color: #b3b3b3;
+    width: 120px;
+    height: 50px;
+    text-align: center;
+}
+.menuButton:hover {
+    background-color: lightgreen;
+}
+ul li a{
+    text-decoration: none;
+    background-color: #b3d4fc;
+    border-radius: 15px 15px 0 0;
+}
+ul li a:hover {
+    text-decoration: none;
+}
+section#section1 {
+    width: 100%;
+    margin: 0;
+    height: 80%;
+}
+#firstIframe {
+    width: 100%;
+    background-image: url('../img/beginning.jpg');
+    background-size: cover;
+    height:100%;
+}
+footer#mainFooter {
+    height: 10%;
+    background-color: #b3d4fc;
+    margin: 0;
+    padding: 0;
+    border-top: 2px solid;
+    text-align: center;
+}
+footer#mainFooter p {
+    margin: 0 auto;
+    padding: 10px;
+    font-size: 28px;
+}
+
+

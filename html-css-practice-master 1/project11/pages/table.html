@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/tableStyle.css">
+    <script src="../js/vendor/modernizr-2.6.2.min.js"></script>
+</head>
+<body>
+    <header>
+        <h1>This is a table example</h1>
+    </header>
+    <section id="contentSection">
+        <table>
+            <thead>
+                <tr>
+                    <th rowspan="3">Day</th>
+                    <th colspan="3">Seminar</th>
+                </tr>
+                <tr>
+                    <th colspan="2">Schedule</th>
+                    <th rowspan="2">Topic</th>
+                </tr>
+                <tr>
+                    <th>Begin</th>
+                    <th>End</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="day" rowspan="2">Monday</td>
+                    <td rowspan="2">08.00 AM</td>
+                    <td rowspan="2">05.00 PM</td>
+                    <td>Introduction to HTML</td>
+                </tr>
+                <tr>
+                    <td>HTML Practice</td>
+                </tr>
+                <tr>
+                    <td class="day" rowspan="6">Tuesday</td>
+                    <td rowspan="2">08.00 AM</td>
+                    <td rowspan="2">10.00 AM</td>
+                    <td rowspan="3">Introduction to CSS</td>
+                </tr>
+                <tr>
+                </tr>
+                <tr>
+                    <td rowspan="2">11.00 AM</td>
+                    <td rowspan="2">01.00 PM</td>
+                </tr>
+                <tr>
+                    <td rowspan="3">CSS Practice</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">01.30 PM</td>
+                    <td rowspan="2">15.00 PM</td>
+                </tr>
+                <tr></tr>
+                <tr>
+                    <td class="day">Wednesday</td>
+                    <td>08.00 AM</td>
+                    <td>13.00 PM</td>
+                    <td>Recap</td>
+                </tr>
+                <tr>
+                    <td class="day" rowspan="2">Thursday</td>
+                    <td>09.00 AM</td>
+                    <td>12.00 PM</td>
+                    <td rowspan="2">Introduction to JavaScript</td>
+                </tr>
+                <tr>
+                    <td>13.00 PM</td>
+                    <td>15.00 PM</td>
+                </tr>
+                <tr>
+                    <td class="day" rowspan="2">Friday</td>
+                    <td>08.00 AM</td>
+                    <td>12.00 AM</td>
+                    <td>JavaScript Practice</td>
+                </tr>
+                <tr>
+                    <td>13.00 PM</td>
+                    <td>16.00 PM</td>
+                    <td>Final Recap, Q&A Session</td>
+                </tr>
+            </tbody>
+
+            <tfoot>
+                <tr>
+                    <td class="day">Saturday</td>
+                    <td colspan="3">
+                        <label for="saturday">What would you like to do?</label>
+                        <select id="saturday" name="saturday">
+                            <option value="shopping">Shopping</option>
+                            <option value="running">Running</option>
+                            <option value="cooking">Cooking</option>
+                            <option value="watching">Watching Movies</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="day">Sunday</td>
+                    <td colspan="3">
+                        <label for="sunday">Choose your activity for today:</label>
+                        <input type="checkbox" id="sunday">Read
+                        <input type="checkbox" id="sunday">Go out with your friends
+                        <input type="checkbox" id="sunday">Go to my grandparents<br>
+                        <label for="other">Other:</label>
+                        <input type="text" id="other">
+                    </td>
+                </tr>
+            </tfoot>
+        </table>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="../js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+<script src="../js/plugins.js"></script>
+<script src="../js/main.js"></script>
+
+<!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+<script>
+    (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+        e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+        e.src='//www.google-analytics.com/analytics.js';
+        r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+    ga('create','UA-XXXXX-X');ga('send','pageview');
+</script>
+</body>
+</html>
